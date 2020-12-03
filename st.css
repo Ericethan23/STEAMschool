@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    color:white;
+    background-color:black;
+}
+p{
+    width:auto;
+    padding:20px;
+    position:sticky;
+}
+#loading{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:aquamarine url('tes.gif') no-repeat center;
+    z-index:99999;
+}
+@media screen and (max-width:769px){
+  
+    
+}
+@media screen and (max-width:1280px){
+    *{
+        margin:0px;
+    }
+    body{
+        background-color:whitesmoke;
+        color:black;
+        
+    }
+    h1{
+        margin:0 0 0 20px;
+    }
+ 
+    
+}
