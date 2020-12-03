@@ -15,7 +15,7 @@ p{
     position:fixed;
     width:100%;
     height:100%;
-    background:aquamarine url('tes.gif') no-repeat center;
+    background:aquamarine url('https://github.com/Ericethan23/STEAMschool/blob/main/tes.gif') no-repeat center;
     z-index:99999;
 }
 @media screen and (max-width:769px){
