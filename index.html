@@ -5,12 +5,17 @@
  
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Testing View</title> 
-       
+         <script>
+        var preloader = document.getElementById('loading');
+            function prelod(){
+                preloader.style.display = 'none';
+            }
+        </script>
     </head>
- 
     <body onload="prelod();">
     <div id="loading">
         </div>
+           
         <h1>Aurora</h1>
         <p>
         <iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/8k8xmKaI#rFH-7fv82Z9Xc3IEfxA4d-NS1x3oQikC7vH5JoXvjW8" allowfullscreen ></iframe>
@@ -19,13 +24,5 @@
 <iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/8k8xmKaI#rFH-7fv82Z9Xc3IEfxA4d-NS1x3oQikC7vH5JoXvjW8" allowfullscreen ></iframe>
 
         </p>
-        
-        
-        <script>
-        var preloader = document.getElementById('loading');
-            function prelod(){
-                preloader.style.display = 'none';
-            }
-        </script>
     </body>
 </html>
